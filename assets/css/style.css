@@ -1,0 +1,101 @@
+body,#pageContainer{
+    margin: 0;
+    padding: 0;
+
+
+}
+.row {
+    margin: 0px;
+}
+
+#logo{
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+.navbar>a{
+    padding: 0 30px;
+    color: darkgray;
+}
+.navbar>a:hover{
+    color: rgb(227, 72, 121);
+}
+.info{
+    background-color: rgb(227, 72, 121);
+    text-align: center;
+    color: #fff;
+    padding: 30px 50px;
+}
+
+.falarge {
+    font-size: xx-large;
+}
+
+
+
+.fa-services {
+    background-color: rgb(253, 173, 198);
+    color: rgb(255, 255, 255);
+    font-size: x-large;
+    border-radius: 50%;
+    padding: 50px;
+}
+#start{
+    text-align: center;
+    background-color: #8cc63f;
+    color: white;
+    padding: 10px 0;
+}
+#start>i{
+    font-size: xx-large;
+}
+.btnX{
+    background-color: white;
+    color: #8cc63f ;
+
+}
+.btnX:hover {
+    text-shadow: 1px 1px 5px #ccc;
+}
+#footer{
+    text-align: center;
+    padding: 30px 0;
+}
+.small-footer{
+    font-size: xx-small;
+    font-style: italic;
+    color: #9d9d9d;
+    width: 75%;
+    margin: 0 auto;
+}
+.link-footer{
+    color: rgb(227, 72, 121);
+    font-size: x-small;
+    font-weight: bold;
+}
+.link-footer:hover{
+    color: rgb(227, 72, 121);
+}
+.social{
+    padding: 10px 12px;
+    border-radius: 50%;
+    color: white;
+    background-color: rgb(227, 72, 121);
+}
+
+.carousel-item {
+/*    height: 100vh;*/
+    height: 300px;
+    background: no-repeat center center scroll;
+    background-size: cover;
+}
+
+.carousel span {
+    background-image: none;
+    text-shadow: 2px 0px 2px #000;
+    font-size: xx-large;
+}
+
+.carousel-indicators li {
+    cursor: pointer;
+    box-shadow: 2px 2px 2px #999;
+}
